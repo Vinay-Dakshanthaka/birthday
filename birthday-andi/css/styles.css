@@ -29,6 +29,7 @@ body {
   overflow-x: hidden;
   color: var(--ink);
   font-family: Inter, system-ui, sans-serif;
+  overflow-wrap: break-word;
   background:
     radial-gradient(circle at 14% 16%, rgba(201, 151, 53, 0.23), transparent 18rem),
     radial-gradient(circle at 88% 12%, rgba(185, 94, 93, 0.16), transparent 20rem),
@@ -151,6 +152,7 @@ img { display: block; max-width: 100%; }
   color: var(--paper);
   background: linear-gradient(135deg, var(--wine), var(--rose));
   box-shadow: 0 14px 30px rgba(90, 25, 50, 0.22);
+  text-align: center;
 }
 
 .scrap-stop {
@@ -162,6 +164,10 @@ img { display: block; max-width: 100%; }
   scroll-snap-align: start;
   scroll-snap-stop: always;
   overflow: visible;
+}
+
+.scrap-stop > * {
+  min-width: 0;
 }
 
 .hero-stop,
@@ -180,6 +186,14 @@ img { display: block; max-width: 100%; }
   gap: clamp(1.5rem, 5vw, 5rem);
   width: min(100%, 74rem);
   margin-inline: auto;
+}
+
+.hero-grid > *,
+.highlight-stop > *,
+.split-stop > *,
+.talent-grid > *,
+.bird-gallery > * {
+  min-width: 0;
 }
 
 .hero-copy,
