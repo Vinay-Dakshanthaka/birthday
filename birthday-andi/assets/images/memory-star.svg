@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title">
+  <title id="title">Abstract star memory</title>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#071b2d"/>
+      <stop offset=".52" stop-color="#2b1d55"/>
+      <stop offset="1" stop-color="#07101a"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="640" height="420" rx="38" fill="url(#bg)"/>
+  <path d="M320 60l55 116 126 18-91 90 22 126-112-59-112 59 22-126-91-90 126-18z" fill="#ffe28a" filter="url(#glow)"/>
+  <path d="M110 96c107 42 215 48 420 0M90 320c132-58 280-58 460 0" fill="none" stroke="#62f4e8" stroke-width="8" opacity=".52"/>
+  <g fill="#fff" opacity=".9">
+    <circle cx="90" cy="190" r="5"/><circle cx="534" cy="192" r="6"/><circle cx="466" cy="78" r="4"/><circle cx="172" cy="342" r="5"/>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+@media (prefers-reduced-motion: no-preference) {
+  .nature-card img {
+    transition: transform 700ms ease, filter 700ms ease;
+  }
+
+  .nature-card:hover img,
+  .talent-card:hover img,
+  .bird-card:hover img,
+  .sticker-art:hover img,
+  .polaroid:hover img {
+    transform: scale(1.025);
+    filter: sepia(0.1) saturate(0.92) contrast(1);
+  }
+
+  .talent-card,
+  .bird-card,
+  .checkpoint-card,
+  .final-card {
+    transition: transform 220ms ease, box-shadow 220ms ease;
+  }
+
+  .talent-card:hover,
+  .bird-card:hover,
+  .checkpoint-card:hover,
+  .final-card:hover {
+    transform: translateY(-4px) rotate(-0.2deg);
+    box-shadow: 0 30px 76px rgba(63, 34, 24, 0.22);
+  }
+
+  @keyframes petalFloat {
+    to {
+      opacity: 0;
+      transform: translate(var(--x), var(--y)) rotate(var(--r));
+    }
+  }
+}

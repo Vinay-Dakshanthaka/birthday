@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-labelledby="t">
+  <title id="t">Kindness cartoon</title>
+  <rect width="520" height="520" rx="36" fill="#fff3d9"/>
+  <rect x="72" y="92" width="376" height="270" rx="28" fill="#fffdf7" stroke="#5a1932" stroke-opacity=".18" stroke-width="6"/>
+  <rect x="108" y="132" width="304" height="48" rx="24" fill="#f6e4c7"/>
+  <circle cx="134" cy="156" r="12" fill="#b95e5d"/>
+  <text x="164" y="166" font-family="Verdana" font-size="25" font-weight="800" fill="#5a1932">kindness</text>
+  <path d="M260 303c-64-50-104-83-104-127 0-31 23-54 53-54 22 0 40 12 51 30 12-18 30-30 52-30 30 0 53 23 53 54 0 44-40 77-105 127z" fill="#b95e5d"/>
+  <path d="M151 401c75 37 145 37 218 0" fill="none" stroke="#6e8062" stroke-width="12" stroke-linecap="round"/>
+  <text x="260" y="438" text-anchor="middle" font-family="Verdana" font-size="24" font-weight="800" fill="#5a1932">top result</text>
+</svg>

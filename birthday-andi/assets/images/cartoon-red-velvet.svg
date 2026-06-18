@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-labelledby="t">
+  <title id="t">Red velvet cake cartoon</title>
+  <rect width="520" height="520" rx="36" fill="#fff3d9"/>
+  <ellipse cx="260" cy="395" rx="170" ry="38" fill="#d5b987"/>
+  <path d="M140 166l260 66-44 161-250-75z" fill="#8f1d2c" stroke="#5a1932" stroke-opacity=".18" stroke-width="6"/>
+  <path d="M138 194l252 65-12 42-252-70zM123 260l251 68-13 48-252-72z" fill="#fff7ea"/>
+  <path d="M139 166c78-50 176-49 261 66-99 22-186 7-261-66z" fill="#d84b55"/>
+  <circle cx="294" cy="162" r="19" fill="#b95e5d"/>
+  <path d="M276 146c-11-25 2-41 31-42" fill="none" stroke="#6e8062" stroke-width="7" stroke-linecap="round"/>
+  <text x="260" y="455" text-anchor="middle" font-family="Verdana" font-size="25" font-weight="800" fill="#5a1932">red velvet forever</text>
+</svg>

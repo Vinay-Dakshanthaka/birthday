@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title">
+  <title id="title">Abstract sunrise memory</title>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#101a46"/>
+      <stop offset=".48" stop-color="#ff6f91"/>
+      <stop offset="1" stop-color="#ffe28a"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="640" height="420" rx="38" fill="url(#sky)"/>
+  <circle cx="320" cy="230" r="92" fill="#fff7c7" filter="url(#glow)"/>
+  <path d="M0 286c92-34 151-13 225 0s143 11 214-15 126-21 201 19v130H0z" fill="#101a46" opacity=".72"/>
+  <path d="M52 338c78-28 135-20 201 0s122 21 204-8 126-22 183 10" fill="none" stroke="#62f4e8" stroke-width="10" opacity=".65"/>
+</svg>

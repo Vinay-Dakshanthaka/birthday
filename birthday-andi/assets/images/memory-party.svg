@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title">
+  <title id="title">Abstract party memory</title>
+  <defs>
+    <radialGradient id="bg" cx=".5" cy=".4">
+      <stop offset="0" stop-color="#25306d"/>
+      <stop offset=".55" stop-color="#10162f"/>
+      <stop offset="1" stop-color="#070817"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="420" rx="38" fill="url(#bg)"/>
+  <g fill="none" stroke-linecap="round" stroke-width="15">
+    <path d="M160 300C190 170 268 130 320 82" stroke="#ffe28a"/>
+    <path d="M320 338c-12-106 20-188 99-246" stroke="#62f4e8"/>
+    <path d="M474 302c-78-68-101-143-66-225" stroke="#ff94d6"/>
+  </g>
+  <g>
+    <circle cx="160" cy="300" r="42" fill="#ff6f91"/>
+    <circle cx="320" cy="338" r="46" fill="#ffe28a"/>
+    <circle cx="474" cy="302" r="40" fill="#62f4e8"/>
+  </g>
+  <g fill="#fff">
+    <circle cx="98" cy="88" r="8"/><circle cx="536" cy="94" r="7"/><circle cx="412" cy="50" r="5"/><circle cx="236" cy="58" r="6"/>
+  </g>
+</svg>

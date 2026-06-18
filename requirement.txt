@@ -1,0 +1,555 @@
+Project: "Happy Birthday Andi — Infinite Celebration Universe"
+
+Build a production-quality, visually stunning, interactive birthday experience using only:
+
+HTML
+CSS
+JavaScript
+
+No build tools.
+No React.
+No Vue.
+No TypeScript.
+No npm installation required by the user.
+
+The project must run by simply opening index.html in a browser (or via a simple local server).
+
+You may use open-source libraries via CDN.
+
+Goal
+
+Create an unforgettable, premium-quality, cinematic birthday website for Andi.
+
+This should feel less like a webpage and more like:
+
+an interactive fantasy world
+a celebration journey
+a magical birthday adventure
+an Apple keynote-level scrolling experience
+a modern award-winning Awwwards-style website
+
+The entire experience should be centered around:
+
+HAPPY BIRTHDAY ANDI
+
+The page should be rich, immersive, polished, animated, responsive, and visually spectacular.
+
+Technical Requirements
+
+Use only:
+
+HTML + CSS + JavaScript
+
+Open-source CDN libraries are allowed.
+
+Recommended libraries:
+
+GSAP
+ScrollTrigger
+MotionPathPlugin
+Lenis
+Three.js
+canvas-confetti
+Splitting.js
+Motion One
+VanillaTilt
+any other reputable open-source CDN library
+
+No backend.
+
+No frameworks.
+
+Everything must be self-contained.
+
+Deliver Complete Project Structure
+
+Create:
+
+birthday-andi/
+
+├── index.html
+├── css/
+│   ├── styles.css
+│   ├── animations.css
+│   └── responsive.css
+│
+├── js/
+│   ├── main.js
+│   ├── universe.js
+│   ├── route.js
+│   ├── checkpoints.js
+│   ├── fireworks.js
+│   ├── confetti.js
+│   └── effects.js
+│
+├── assets/
+│   ├── images/
+│   ├── audio/
+│   └── fonts/
+│
+└── README.md
+
+Generate every file completely.
+
+Do not leave placeholders.
+
+Do not leave TODOs.
+
+Do not leave incomplete implementations.
+
+Core Concept
+
+The entire page is a giant celebration journey.
+
+The user scrolls through a magical birthday universe.
+
+A huge winding route spans the entire experience.
+
+The route acts like a fantasy map.
+
+The text:
+
+"HAPPY BIRTHDAY ANDI"
+
+must follow the route.
+
+The route should be visible and artistic.
+
+The route should feel like a magical path through a dream world.
+
+Infinite Scrolling
+
+Implement the illusion of infinite scrolling.
+
+As the user reaches the end:
+
+generate more decorative sections
+continue the route
+continue particles
+continue celebrations
+
+The page should feel endless.
+
+Main Sections
+
+Create multiple themed worlds.
+
+Examples:
+
+1. Welcome Universe
+
+Massive entrance.
+
+Huge title.
+
+Floating particles.
+
+Animated stars.
+
+Aurora background.
+
+Light rays.
+
+Animated typography.
+
+2. Balloon Valley
+
+Thousands of floating balloons.
+
+Depth effect.
+
+Parallax movement.
+
+Clouds.
+
+Floating sparkles.
+
+3. Cake Kingdom
+
+Giant 3D-looking cakes.
+
+Candles.
+
+Flames.
+
+Glow effects.
+
+Sweet particle effects.
+
+4. Gift Mountain
+
+Huge gift boxes.
+
+Ribbon animations.
+
+Surprise reveals.
+
+Particle bursts.
+
+5. Memory Galaxy
+
+Space theme.
+
+Nebulas.
+
+Stars.
+
+Glowing paths.
+
+Floating photos (placeholder images acceptable).
+
+6. Firework City
+
+Massive fireworks.
+
+Light flashes.
+
+Particle explosions.
+
+Confetti storms.
+
+7. Andi's Castle
+
+Grand finale.
+
+Large castle.
+
+Glowing crown.
+
+Final birthday message.
+
+Huge celebration sequence.
+
+Route System
+
+Create a giant SVG route.
+
+The route must:
+
+span the page
+curve organically
+look hand-drawn
+glow softly
+
+Use:
+
+SVG path
+
+TextPath
+
+MotionPathPlugin
+
+The route should contain checkpoints.
+
+Checkpoints
+
+Place checkpoints along the route.
+
+Examples:
+
+🎂 Cake Stop
+
+🎁 Gift Stop
+
+🎈 Balloon Stop
+
+✨ Wish Stop
+
+🎆 Firework Stop
+
+👑 Royal Stop
+
+Each checkpoint should:
+
+animate into view
+trigger effects
+contain cards
+contain micro interactions
+contain hover effects
+Text Following Path
+
+"HAPPY BIRTHDAY ANDI"
+
+must travel along the route.
+
+Not static.
+
+Animate continuously.
+
+Use:
+
+SVG TextPath
+
+GSAP MotionPathPlugin
+
+or equivalent.
+
+The text should:
+
+glow
+shimmer
+sparkle
+pulse
+Confetti
+
+Implement excessive confetti.
+
+Not subtle.
+
+The user should feel overwhelmed with celebration.
+
+Requirements:
+
+continuous confetti
+milestone confetti
+click confetti
+checkpoint confetti
+finale confetti
+
+Use canvas-confetti.
+
+Fireworks
+
+Create fireworks using:
+
+Canvas
+
+or Three.js particles.
+
+Requirements:
+
+realistic trajectories
+particle trails
+colorful explosions
+random bursts
+checkpoint bursts
+finale mega show
+Three.js Background Universe
+
+Build a living universe.
+
+Include:
+
+stars
+particles
+nebula-like colors
+moving galaxies
+floating glowing orbs
+
+Performance optimized.
+
+Must maintain 60fps when possible.
+
+Massive Parallax System
+
+Multiple layers:
+
+stars
+clouds
+sparkles
+balloons
+distant mountains
+floating islands
+foreground decorations
+
+Each layer moves at different speeds.
+
+Use GSAP.
+
+Floating Elements
+
+Continuously animate:
+
+balloons
+stars
+hearts
+sparkles
+gifts
+crowns
+confetti pieces
+
+Everything should feel alive.
+
+Cinematic Animations
+
+Use:
+
+GSAP timelines
+
+ScrollTrigger
+
+stagger effects
+
+smooth transitions
+
+text reveals
+
+scale animations
+
+blur reveals
+
+parallax transitions
+
+camera-like movements
+
+section transitions
+
+Premium Typography
+
+Use beautiful Google Fonts.
+
+Examples:
+
+Poppins
+Outfit
+Space Grotesk
+Sora
+Inter
+
+Create premium typography hierarchy.
+
+Glassmorphism
+
+Checkpoint cards should use:
+
+glassmorphism
+
+blur
+
+glow
+
+gradient borders
+
+floating shadows
+
+Interactions
+
+Add delightful interactions:
+
+Hover:
+
+tilt
+glow
+particle burst
+
+Click:
+
+confetti
+ripple
+sparkle burst
+
+Scroll:
+
+route progress
+animations
+reveals
+Progress Indicator
+
+Create a magical route progress tracker.
+
+As user scrolls:
+
+show progress through celebration journey.
+
+Audio
+
+Include optional audio toggle.
+
+Use a royalty-free celebratory music placeholder.
+
+Requirements:
+
+mute/unmute button
+elegant UI
+Finale
+
+The finale should be spectacular.
+
+When user reaches Andi's Castle:
+
+Trigger:
+
+giant fireworks
+mega confetti storm
+screen glow
+particle explosion
+animated crown
+floating hearts
+
+Display:
+
+"HAPPY BIRTHDAY ANDI"
+
+in huge typography.
+
+Then:
+
+Show a beautiful birthday wish message.
+
+Responsiveness
+
+Must work on:
+
+Desktop
+
+Laptop
+
+Tablet
+
+Mobile
+
+Ultra-wide monitors
+
+Large TVs
+
+Performance
+
+Optimize carefully.
+
+Use:
+
+requestAnimationFrame
+
+object pooling where appropriate
+
+throttling
+
+efficient particle rendering
+
+avoid layout thrashing
+
+Accessibility
+
+Respect:
+
+reduced motion preferences
+
+keyboard navigation
+
+semantic HTML
+
+reasonable contrast
+
+Code Quality
+
+Requirements:
+
+clean architecture
+modular files
+comments explaining major systems
+maintainable structure
+professional quality
+
+Do not produce a demo.
+
+Do not produce a mockup.
+
+Do not produce snippets.
+
+Produce a complete working project with all files fully implemented.
+
+The result should look like something worthy of Awwwards, Codrops, or a premium interactive digital experience.
+
+The emotional goal is:
+
+"When Andi sees this page, it should feel like the entire internet threw a birthday party just for them."
